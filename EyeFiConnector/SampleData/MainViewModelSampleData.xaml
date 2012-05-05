@@ -1,0 +1,23 @@
+﻿<local:MainViewModel 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:EyeFiConnector">
+    
+    <local:MainViewModel.NavigationItems>
+        <local:NavigationItem Name="pics" Uri="/Pictures.xaml" />
+        <local:NavigationItem Name="upload" Uri="#" />
+        <local:NavigationItem Name="settings" Uri="/Settings.xaml" />
+        <local:NavigationItem Name="about" Uri="#" />
+    </local:MainViewModel.NavigationItems>
+    <local:MainViewModel.RecentPictures>
+        <BitmapImage UriSource="/EyeFiConnector;component/SampleData/DSC00213.JPG" />
+        <BitmapImage UriSource="/EyeFiConnector;component/SampleData/DSC00213.JPG" />
+        <BitmapImage UriSource="/EyeFiConnector;component/SampleData/DSC00213.JPG" />
+        <BitmapImage UriSource="/EyeFiConnector;component/SampleData/DSC00213.JPG" />
+        <BitmapImage UriSource="/EyeFiConnector;component/SampleData/DSC00213.JPG" />
+        <BitmapImage UriSource="/EyeFiConnector;component/SampleData/DSC00213.JPG" />
+        <BitmapImage UriSource="/EyeFiConnector;component/SampleData/DSC00213.JPG" />
+        <BitmapImage UriSource="/EyeFiConnector;component/SampleData/DSC00213.JPG" />
+    </local:MainViewModel.RecentPictures>
+    
+</local:MainViewModel>
